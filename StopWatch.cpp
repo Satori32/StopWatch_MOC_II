@@ -32,6 +32,7 @@ bool NanoSleep(std::chrono::nanoseconds N) {
 	return true;
 }
 
+
 template<class T,class U>
 T ChangeMetric(const U& In) {
 	return std::chrono::duration_cast<T>(In);
